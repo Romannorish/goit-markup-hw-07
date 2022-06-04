@@ -1,0 +1,58 @@
+.contact {
+    display: flex;
+    align-items: center;
+    margin-left: 285px ;
+
+
+    &__item + &__item {
+        margin-left: 50px;
+    }
+
+    &__mail-icon {
+        margin-right: 10px;
+        vertical-align: middle;
+        fill: currentColor;
+    }
+
+    &__tel-icon {
+        margin-right: 10px;
+        vertical-align: middle;
+        fill: currentColor;
+    }
+
+}
+
+.contact__link-mail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-link_mail);
+
+    &:hover,
+    &:focus {
+        color: var(--logo-color);
+    }
+
+}
+
+.contact__link-tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--header-link-tel);
+
+    &:hover,
+    &:focus {
+        color: var(--logo-color);
+    }
+
+}
+
+
+

@@ -1,0 +1,47 @@
+.address__item {
+    margin-bottom: 9px;
+
+    &:last-child {
+        margin: 0px;
+    }
+
+}
+
+
+.address__list {
+    margin-top: 20px;
+}
+
+
+.address__tel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    &:hover,
+    &:focus {
+        color: var(--logo-color);
+    }
+}
+
+
+.address__mail{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    &:hover,
+    &:focus {
+        color: var(--logo-color);
+    }
+}
+
+
