@@ -1,3 +1,34 @@
+:root {
+  --body-color: #ffffff;
+  --logo-color: #2196f3;
+  --second-logo-color: #212121;
+  --main-background-color: #2f303a;
+  --header-link: #212121;
+  --btn-back: #2196f3;
+  --btn-color: #ffffff;
+  --team-background-color: #f5f4fa;
+  --footer-background: #2f303a;
+  --header-link-studio: #212121;
+  --header-link_mail: #757575;
+  --header-link-tel: #757575;
+  --main-title: #ffffff;
+  --main-h: #212121;
+  --main-text: #757575;
+  --about: #212121;
+  --team: #212121;
+  --team-name: #212121;
+  --team-post: #757575;
+  --main-servies: #212121;
+  --main-description: #757575;
+  --footer-color-logo: #ffffff;
+  --footer-address: #ffffff;
+}
+
+.navigation, .navigation__list, .contact, .features__list, .features__icon, .about__list, .team__socials-link, .agreement__text, .header__container {
+  display: flex;
+  align-items: center;
+}
+
 *,
 *::before,
 *::after {
@@ -85,16 +116,6 @@ body {
   color: var(--second-logo-color);
 }
 
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
-.navigation__list {
-  display: flex;
-  align-items: center;
-}
-
 .navigation__item + .navigation__item {
   margin-left: 50px;
 }
@@ -126,8 +147,6 @@ body {
 }
 
 .contact {
-  display: flex;
-  align-items: center;
   margin-left: 285px;
 }
 
@@ -199,11 +218,6 @@ body {
   padding: 94px 0px 0px;
 }
 
-.features__list {
-  display: flex;
-  align-items: center;
-}
-
 .features__item {
   width: 270px;
   margin-right: 30px;
@@ -218,8 +232,6 @@ body {
 }
 
 .features__icon {
-  display: flex;
-  align-items: center;
   justify-content: center;
   width: 270px;
   height: 120px;
@@ -253,11 +265,6 @@ body {
 .about {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.about__list {
-  display: flex;
-  align-items: center;
 }
 
 .about__item + .about__item {
@@ -371,8 +378,6 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
   justify-content: center;
   color: #afb1b8;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -619,10 +624,8 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
-  display: flex;
-  align-items: center;
   justify-content: center;
+  color: #757575;
 }
 
 .agreement__text::before {
@@ -676,11 +679,6 @@ body {
 .header {
   padding: 24px 0px 25px 0px;
   border-bottom: 1px solid #eeeeee;
-}
-
-.header__container {
-  display: flex;
-  align-items: center;
 }
 
 .pages {
@@ -899,8 +897,8 @@ body {
 
 .srevies__name {
   font-family: Roboto;
-  font-size: 18px;
   font-weight: bold;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
@@ -911,7 +909,7 @@ body {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em;
   color: var(--main-description);
 }
 
@@ -956,31 +954,5 @@ body {
   height: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-:root {
-  --body-color: #ffffff;
-  --logo-color: #2196f3;
-  --second-logo-color: #212121;
-  --main-background-color: #2f303a;
-  --header-link: #212121;
-  --btn-back: #2196f3;
-  --btn-color: #ffffff;
-  --team-background-color: #f5f4fa;
-  --footer-background: #2f303a;
-  --header-link-studio: #212121;
-  --header-link_mail: #757575;
-  --header-link-tel: #757575;
-  --main-title: #ffffff;
-  --main-h: #212121;
-  --main-text: #757575;
-  --about: #212121;
-  --team: #212121;
-  --team-name: #212121;
-  --team-post: #757575;
-  --main-servies: #212121;
-  --main-description: #757575;
-  --footer-color-logo: #ffffff;
-  --footer-address: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

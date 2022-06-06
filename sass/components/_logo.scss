@@ -1,9 +1,8 @@
 .logo {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+
+
+    @include fonts(Raleway,null,700,26px,1.19,0.03em)
+
     color: var(--logo-color);
 
 &__first {
@@ -12,11 +11,9 @@
 
 
 &__second {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+
+    @include fonts(Raleway, null, 700, 26px, 1.19, 0.03em)
+
     color: var(--second-logo-color);
 }
 

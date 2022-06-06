@@ -14,14 +14,10 @@
 
 
 .address__tel {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
 
+    @include fonts (Roboto, normal, normal, 14px, 1.71, 0.03em);
+
+    color: rgba(255, 255, 255, 0.6);
     &:hover,
     &:focus {
         color: var(--logo-color);
@@ -30,12 +26,10 @@
 
 
 .address__mail{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+
+    @include fonts (Roboto, normal, normal, 14px, 1.71, 0.03em);
+
+    
     color: rgba(255, 255, 255, 0.6);
 
     &:hover,

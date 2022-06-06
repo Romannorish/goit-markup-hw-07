@@ -1,7 +1,14 @@
+// utils
+@import './utils/vars';
+@import './utils/mixins';
+@import './utils/plaseholders';
+
+
 // base 
 @import './base/reset';
 @import './base/container';
 @import './base/buttons';
+
 
 
 // components
@@ -24,7 +31,3 @@
 @import './layout/portfolio';
 
 
-// utils
-@import './utils/vars';
-@import './utils/plaseholders';
-@import './utils/mixins';

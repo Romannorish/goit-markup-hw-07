@@ -156,14 +156,14 @@
     }
 
     &__text {
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: #757575;
-        display: flex;
-        align-items: center;
+
+
+        @include fonts(null, null, normal, 14px, 1.71, 0.03em)
+
+        @extend %flex;
+
         justify-content: center;
+        color: #757575;
     }
 
     &__text::before {
@@ -193,13 +193,19 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 1.87;
+
+
         display: flex;
         align-items: center;
+
+
         text-align: center;
         letter-spacing: 0.06em;
         color: #ffffff;
     }
 
+
+    
 }
 
 
